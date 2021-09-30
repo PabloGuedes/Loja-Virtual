@@ -1,10 +1,18 @@
 @extends('layouts.app')
 
 @section('content')
+
+<style>
+
+    .bg-card {
+background: rgba(0,0,0,0.8);
+color: rgb(223, 223, 223);
+}
+ </style>
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-            <div class="card">
+            <div class="card bg-card">
                 <div class="card-header">{{ __('Reset Password') }}</div>
 
                 <div class="card-body">
